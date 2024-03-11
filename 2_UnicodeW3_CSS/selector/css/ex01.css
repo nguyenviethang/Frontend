@@ -1,0 +1,26 @@
+#title {
+    color: red;
+}
+
+.title {
+    color: red;
+}
+
+h2 {
+    color: rgb(17, 218, 100);
+}
+
+.wrapper .container .content { /* dich: thằng container nằm trong wrapper, thằng content nằm trong thằng container và thằng wrapper*/
+    color: red;
+}
+
+.main .content {
+    color: green;
+}
+
+.wrapper > .content {
+    color: blue;
+}
+.menu > li > a {
+    color: red;
+}

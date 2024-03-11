@@ -1,0 +1,55 @@
+.btn {
+    background-color: red;
+}
+
+.btn:hover {
+    background: yellow;
+}
+
+.btn:active {
+    background-color: blue;
+}
+
+.username:focus {
+    background-color: blue;
+}
+
+/* .email:disabled {
+    background-color: green;
+    color: red;
+} */
+/* .email:disabled::placeholder {
+    color: brown;
+    background: yellowgreen;
+} */
+/* .email[disabled] {
+    background-color: red;
+    color: red;
+} */
+.email[disabled]::placeholder {
+    background-color: red;
+    color: white;
+}
+
+/* cach nao cung dc tu 4 cach tren*/
+/* .products .item {
+    color: red;
+}
+
+.products .item.active {
+    color: initial;
+} */
+/*dung cach duoi day hay hon cach tren*/
+/* .products .item:not(.active) {
+    color: red;
+} */
+
+/* .products .item:first-of-type {
+    color: red;
+}
+.products .item:last-child {
+    color: green;
+} */
+.products .item:nth-child(2n+1) {
+    color: red;
+}

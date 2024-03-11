@@ -1,0 +1,32 @@
+p input:checked~span {
+    color: red;
+}
+
+/* .websites a[href='https://unicode.vn'] { /* cách dùng này để chọn khớp nhưng link unicode.vn
+    color: red;
+} */
+
+.websites a[href^='https://unicode.vn'] {
+    /*cach dùng để chọn nhưng link có đầu là unicode.vn/....*/
+    color: red;
+}
+
+.websites a[href*='unicode.vn'] {
+    /*cach dùng để chọn nhưng link có ít nhất chứa unicode.vn*/
+    color: red;
+}
+
+
+
+.websites a[target] {
+    color: green;
+}
+
+div[title*="example"] {
+    background-color: yellow;
+}
+
+.products,
+.post {
+    background: red;
+}
