@@ -13,3 +13,9 @@ p:nth-child(3) {
 .content p:nth-child(2) {
     color: unset; 
 }
+.content {
+    color: violet;
+}
+.content a {
+    color: red;
+}
